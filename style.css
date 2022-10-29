@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+    background-color: #cbf3f0;
+    
+}
+
+.container{
+
+  
+    /*background: rgba(255, 255, 255, 0.192);
+        backdrop-filter: blur(1000px);*/
+        background-color: #ffbf69;
+        height: 40rem;
+        width: 75rem;
+        margin-top: -10%;
+        border-radius: 15px;
+        border: 1px solid rgba(43, 43, 43, 0.568);
+transition: ease-in-out 0.5s;
+  
+
+}
+
+.container:hover{
+  transform: translateZ(20deg);
+}
+
+
+
+button{
+border-style: solid;
+border-color: aliceblue;
+text-align: center;
+color:aliceblue;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
+background-color: #144552;
+backdrop-filter: blur(10px);
+margin-top: -10%;
+border-radius: 15px;
+border: 1px solid rgba(43, 43, 43, 0.568);
+width:400px;
+height: 200px;
+border-width: 2px;
+padding: 5%;
+margin-top: 3%;
+margin-left: 32%;
+border-radius: 1000px;
+text-transform: uppercase;
+transform:translateY(-0.4em);
+    box-shadow: 0px 12px 20px #356f80;
+
+transition: ease-in-out 0.5s;
+}
+
+
+button:hover, button:focus{
+  background: rgba(255, 255, 255, 0.192);
+    color:#356f80;
+    cursor: pointer;
+    transform:translateY(+0.4em);
+    box-shadow: 0px 12px 100px rgba(255, 255, 255, 0.192);
+}
+
+h1{
+    text-align: center;
+    color: #778da9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px
+
+    
+}
