@@ -7,7 +7,10 @@ document.getElementById('btn').addEventListener('click',setTime);
 
 function setTime (){
   
-let Time = setInterval(getData, 60000)
+let Time = setInterval(getData, randomNumber(10000, 100000))
+function randomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+}
 
 }
 
