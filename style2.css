@@ -34,6 +34,9 @@ button:hover span {
   -webkit-animation-delay: 0.06s;
           animation-delay: 0.06s;
 }
+button:active {
+  background-color: white;
+}
 
 @-webkit-keyframes rotate {
   0% {

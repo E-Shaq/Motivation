@@ -3,7 +3,12 @@
 window.onload=function(){
 
 document.getElementById('btn').addEventListener('click',setTime);
-
+var counter=0;
+function btnFunction(){
+  counter+=1;
+  if(counter>1)
+      document.getElementById("btn").style.visibility = "hidden"
+}
 
 function setTime (){
   
